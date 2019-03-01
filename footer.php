@@ -35,7 +35,7 @@
 			<div id="bottom-bar" class="f4-bottom-bar">
 				<div class="row">
 					<div class="col-md-12">
-						<div class="row">
+						<nav class="row">
 							<div class="col-md-6 my-auto copyright"><?php echo \StarterKit\Helper\Utils::get_option( 'bottom_bar_text' ); ?></div>
 							<nav class="col-md-6 links">
 
@@ -48,7 +48,7 @@
 
 								?>
 
-							</div>
+							</nav>
 						</div>
 					</div>
 				</div>
