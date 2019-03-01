@@ -17,7 +17,8 @@
 			wp_nav_menu(
 				array(
 					'theme_location' => 'header_menu',
-					'menu_class'     => 'mobile-menu'
+					'menu_class'     => 'mobile-menu',
+					//'walker'          => new \bs4navwalker() //uncomment require bs4navwalker lib in Init controller to use walker
 				)
 			);
 			?>
@@ -27,7 +28,8 @@
 			wp_nav_menu(
 				array(
 					'theme_location' => 'header_menu',
-					'menu_class'     => 'desktop-menu'
+					'menu_class'     => 'desktop-menu',
+					//'walker'          => new \bs4navwalker() //uncomment require bs4navwalker lib in Init controller to use walker
 				)
 			);
 			?>

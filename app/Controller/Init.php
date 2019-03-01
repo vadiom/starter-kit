@@ -26,6 +26,9 @@ class Init {
 		
 		// register sidebars
 		add_action( 'widgets_init', array( $this, 'register_sidebars' ) );
+
+		// add bs4navwalker if need
+		//require_once get_template_directory() . '/vendor/bs4navwalker/bs4navwalker.php';
 		
 	}
 	
